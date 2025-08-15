@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>JS perimeter project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+ <body>
+    <P>HELLO</P>
+    <script>
+        var choice = prompt("Enter 1 for Circle, 2 for Rectangle, 3 for Triangle");
+        if (choice == 1) {
+            var a = prompt("Enter the diameter of the circle");
+            var circumfrence = Math.PI * a;
+            alert("The circumfrence of the circle is:" + circumfrence);
+        }
+
+        if (choice == 2) {
+            var c = prompt("Enter the legnth of the rectangle");
+            var d = prompt("Enter the height of the triangle");
+            var area = c * d;
+            alert("The area of the rectangle is:" + area);
+        }
+
+        if (choice == 3) {
+            var e = prompt("Enter the base of triangle");
+            var f = prompt("Enter the height of the triangle");
+            var triangle = (e * f) / 2;
+            alert("The area of the triangle is:" + triangle);
+        }
+
+        else {
+            alert("Invalid choice, please refresh and try again.");
+        }
+    </script>
+ </body>   
+</html>
+<!DOCTYPE html>
+<html>
