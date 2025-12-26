@@ -1,21 +1,13 @@
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="static/styles/styles.css"></link>
-	</head>
-	<body>
-		<div class="form-style-2">
-		<div class="form-style-2-heading">Customer Details</div>
-		<form action="/details" method="POST">
-			<label for="user_name"><span>Name</span><input type="text" class="input-field" name="user_name" value="" placeholder="Enter Name"/></label>
-			<label for="contact_number"><span>Phone</span><input type="text" class="input-field" name="contact_number" value="" placeholder="Enter phone number"/></label>
-			<label for="number_of_items"><span>Total Items</span><input type="number" class="input-field" name="number_of_items" value="" placeholder="Enter the number of items"/></label>
-			<label for="amount"><span>Total Amount</span><input type="number" class="input-field" name="amount" value="" placeholder="Enter the total amount"/></label>
-			<label for="current_date"><span>Date </span><input type="date" class="input-field" name="current_date" value="" placeholder="Today's date"/></label>
-			<div>
-				<a href="/winner" class="btn">Today's Winner</a>
-				<input type="submit" value="Submit" />
-			</div>
-		</form>
-		</div>
-	</body>
-</html>
+<!DOCTYPE html>
+ <html>  
+ <head>  
+     <title>OTP Verification</title>  
+ </head>  
+   <body>  
+  <form action = "/validate" method="post">   
+ <h4> OTP has been sent to the email id. Please check the email for the confirmation.</h4>  
+ Enter OTP(One-time password): <input type="text" name="otp">  
+ <input type="submit" value="Submit">  
+ </form>  
+ </body>  
+ </html>   
