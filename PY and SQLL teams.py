@@ -44,4 +44,6 @@ min_max_margin = pd.read_sql(""" SELECT MIN(Win_Margin), MAX(Win_Margin)
 print("Minimum and Maximum Win Margins in database:")
 min_max_margin.info()
 
+
+
 conn.close()
